@@ -1,9 +1,8 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shop_smart/consts/app_colors.dart';
 import 'package:shop_smart/provider/theme_provider.dart';
+import 'package:shop_smart/widgets/subtitle_text.dart';
+import 'package:shop_smart/widgets/title_text.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -16,7 +15,8 @@ class HomeScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Text('Hello word'),
+            const SubtitleTextWidget(label: "Hello"),
+            TitlesTextWidget(label: "welcome to my app" * 10),
             ElevatedButton(
               onPressed: () {},
               child: const Text('Hello word'),
