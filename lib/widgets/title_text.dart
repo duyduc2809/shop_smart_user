@@ -17,6 +17,7 @@ class TitlesTextWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       label,
+      maxLines: maxLines,
       style: TextStyle(
         color: color,
         fontSize: fontSize,

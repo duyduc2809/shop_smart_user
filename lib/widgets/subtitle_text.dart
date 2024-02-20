@@ -21,7 +21,7 @@ class SubtitleTextWidget extends StatelessWidget {
     return Text(
       label,
       style: TextStyle(
-        fontSize: 60,
+        fontSize: fontSize,
         fontWeight: fontWeight,
         decoration: textDecoration,
         color: color,
