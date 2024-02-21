@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:shop_smart/services/assets_manager.dart';
 import 'package:shop_smart/widgets/subtitle_text.dart';
 import 'package:shop_smart/widgets/title_text.dart';
 
@@ -43,7 +42,7 @@ class EmptyBagWidget extends StatelessWidget {
           ),
           const SizedBox(height: 20),
           Padding(
-            padding: EdgeInsets.all(8.0),
+            padding: const EdgeInsets.all(8.0),
             child: SubtitleTextWidget(
               label: subtitle,
               fontWeight: FontWeight.w400,
